@@ -1,0 +1,12 @@
+.dropdown-menu {
+  max-height: 360px;
+  overflow: auto;
+}
+
+.clean {
+  color: var(--gray-300);
+
+  &:hover {
+    color: var(--gray-300);
+  }
+}

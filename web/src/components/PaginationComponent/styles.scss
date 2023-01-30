@@ -1,0 +1,32 @@
+.container-paginate {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .pagination>li>button {
+    background-color: #212529;
+    color: #FFFFFF;
+  }
+
+  .pagination>li>button:focus,
+  .pagination>li>button:hover,
+  .pagination>li>span:focus,
+  .pagination>li>span:hover {
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #DDDDDD;
+  }
+
+  .active {
+    color: #FFFFFF;
+    background-color: #5A4181 !Important;
+    border: solid 1px #DDDDDD !Important;
+  }
+
+  .active:hover {
+    color: #FFFFFF !Important;
+    background-color: #5A4181 !Important;
+    border: solid 1px #5A4181;
+  }
+}
